@@ -1,7 +1,7 @@
 # BadaLedger_open
 A simple way to open specific Claude chats from BadaLedger directly.
 
-A one-file "bounce" page for BadaLedger's chat buttons. GitHub Pages serves it as a public web page (Pages sites are public even when the repository is private), so anyone with the address can open it.
+A one-file "bounce" page for BadaLedger's chat buttons. The repository and the page GitHub Pages serves from it are both public, so anyone can read them.
 
 **What it does:** opened as `https://badalao.github.io/BadaLedger_open/#chat/<id>` (or `#project/<id>`), it sends you on to that Claude chat or project. On a computer it opens the Claude desktop app (`claude://claude.ai/...`); on a phone it opens `https://claude.ai/...`. The Claude desktop app won't open `claude://` links from inside a page, but it does open them from the browser, which is why this page exists.
 
